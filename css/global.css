@@ -1,3 +1,5 @@
+
+
 .header-container {
     background: url('../images/candies-7036390_1920.jpg'), #f07dea67;
     background-size: cover;
@@ -197,9 +199,16 @@
     width: 120px;
 }
 
-.section {
-    display: flex;
-    background-color: #EEF1FF; 
+html, body {
+  height:100%;
+  width:100%;
+}
+
+section {
+  display: flex;
+  background: #EEF1FF;
+  height:100%;
+  width:100%;
 }
 
 .body-container {
