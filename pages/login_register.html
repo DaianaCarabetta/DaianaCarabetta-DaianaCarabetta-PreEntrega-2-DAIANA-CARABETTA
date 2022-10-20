@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>login</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="search-box-container">
+                <span class="search-box">
+                    <input class="search" type="search">
+                </span>
+            </div>
+            <div class="title-container">
+              <h1 class="title display-2">willy wonka</h1>
+            </div>
+            <div class="controls-container">
+                <div class="nav-container">
+                    <span class="nav-links"><a href="../index.html">home</a> / login</span>
+                </div>
+                <div class="controls">
+                        <a href="favorites.html" target="_self" class="favorites"></a>
+                        <a href="login_register.html" target="_self" class="register"></a>
+                        <a href="checkout.html" target="_self" class="checkout"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+      
+        <div class="form-register-container">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 border-end">
+                    <div class="title-container">
+                      <h2 class="display-4 title">Registrarse</h2>
+                    </div>
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputName" class="form-label">Nombre</label>
+                        <input type="name" class="form-control" id="inputName">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputLastname" class="form-label">Apellido</label>
+                        <input type="Lastname" class="form-control" id="inputLastname">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label">Dirección</label>
+                        <input type="text" class="form-control" id="inputAddress">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputBirthday" class="form-label">Fecha de Nacimiento</label>
+                        <input type="text" class="form-control" id="inputBirthday">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputID" class="form-label">DNI</label>
+                        <input type="text" class="form-control" id="inputID">
+                      </div>
+                      <div class="col-md-5">
+                        <label for="inputCity" class="form-label">Ciudad</label>
+                        <input type="text" class="form-control" id="inputCity">
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label">Provincia</label>
+                        <select id="inputState" class="form-select">
+                          <option selected>Elige...</option>
+                          <option>Buenos Aires</option>
+                          <option>Entre Ríos</option>
+                          <option>Mendoza</option>
+                          <option>Salta</option>
+                          <option>Córdoba</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="inputZip" class="form-label">Código postal</label>
+                        <input type="text" class="form-control" id="inputZip">
+                      </div>
+                      <div class="col-12">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="inputEmail">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword" class="form-label">Contraseña</label>
+                        <input type="text" class="form-control" id="inputPassword">
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputConfirmpassword" class="form-label">Confirmar Contraseña</label>
+                        <input type="text" class="form-control" id="inputConfirmpassword">
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">CREAR CUENTA</button>
+                      </div>
+                    </form>
+                  </div>
+
+
+                  
+                  <div class="col-md-6">
+                    <div class="title-container">
+                      <h2 class="display-4 title">Iniciar Sesión</h2>
+                    </div>
+                    <form role="form">
+                      <div class="form-group">
+                        <label for="inputUsernameEmail" class="form-label">Nombre de Usuario</label>
+                        <input type="text" class="form-control" id="inputUsernameEmail">
+                      </div>
+                      <div class="form-group">
+                        
+                        <label for="inputPassword" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword">
+                        <a class="pull-right" href="#">Olvidó su Contraseña?</a>
+                      </div>
+                      <div class="checkbox pull-right">
+                        <label>
+                          <input type="checkbox">
+                          Recordar su Contraseña 
+                        </label>
+                      </div>
+                      <button type="submit" class="btn btn btn-primary">
+                        INGRESAR
+                      </button>
+                    </form>
+                    <div class="login-or">
+                      <hr class="hr-or">
+                      <span class="d-flex justify-content-center">Ingresar con</span>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-6 mx-auto">
+                        <div class="d-flex align-items-center justify-content-evenly">
+                          <a href="#" class="btn btn-lg btn-primary btn-block me-5">Facebook</a>
+                          <a href="#" class="btn btn-lg btn-danger btn-block">Google</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div> 
+
+                </div>
+              </div>
+        </div>
+    </section>
+        <footer>
+        <div class="footer-container">
+            <div class="social-networks">
+                <span class="twitter">
+                    <img src="../images/twitter.png">
+                </span>
+                <span class="instagram">
+                    <img src="../images/instagram.png">
+                </span>
+                <span class="facebook">
+                    <img src="../images/facebook.png">
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
