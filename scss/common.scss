@@ -1,0 +1,164 @@
+
+@font-face {
+    font-family: 'RampartOne';
+    src: url('../fonts/RampartOne-Regular.ttf');
+}
+
+html {
+    height:100%;
+    width:100%;
+    body {
+        height:100%;
+        width:100%;
+        .header-container {
+            background: url('../images/candies-7036390_1920.jpg'), #f07dea67;
+            background-size: cover;
+            background-position: bottom;
+            .search-box-container {
+                text-align: right;
+                margin-right: 0 !important;
+                .search {
+                    position: relative;
+                    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+                    input {
+                        height: 40px;
+                        text-indent: 25px;
+                        border: 2px solid #d6d4d4;
+                        &:focus {
+                            box-shadow: none;
+                            border: 2px solid blue;
+                        }
+                    }
+                    .fa-search {
+                        position: absolute;
+                        top: 13px;
+                        left: 16px;
+                    }
+                    button {
+                        position: absolute;
+                        top: 5px;
+                        right: 5px;
+                    }
+                }
+            }
+            .title-container {
+                .title {
+                    font-family: 'RampartOne';
+                    text-align: center;
+                    margin: 0;
+                    color: rgb(15, 2, 61);
+                }
+            }    
+            .controls-container {
+                display: flex;
+                flex-direction: row; 
+                flex-wrap: nowrap;
+                justify-content: space-between; 
+                .nav-container {
+                    display: inline-block;
+                    background-color: white;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    .nav-links {
+                        border: 1px solid #000;
+                        padding: 2px;
+                    }
+                    
+                }
+                .controls {
+                    display: inline-block;
+                    margin-right: 15px;
+                    .favorites {
+                        display: inline-block;
+                        font-size: 30px;
+                        color: #0f023d
+                    }
+                    .register {
+                        display: inline-block;
+                        font-size: 30px;
+                        color: #0f023d
+                    }
+                    .checkout {
+                        display: inline-block;
+                        font-size: 30px;
+                        color: #0f023d
+                    }
+                }
+            }
+        }
+        section {
+            display: table;
+            background: #EEF1FF;
+            height:100%;
+            width:100%;
+            .menu-container {
+                background-color: #EEF1FF;
+                margin-top: 20px;
+                .menu-btn {
+                    position: relative;
+                    display: flex !important;
+                    align-items: center;
+                    width: 100%;
+                    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x) !important;
+                    font-size: 1rem !important;
+                    color: var(--bs-accordion-btn-color) !important;
+                    text-align: left !important;
+                    border: 0 !important;
+                    border-radius: 0 !important;
+                    overflow-anchor: none !important;
+                }
+                .menu-item {
+                    padding: 0px !important;   
+                }
+            }
+            .body-container {
+                margin-top: 20px;
+                background-color: #EEF1FF;
+                display: table-cell;
+                width: 100%;  
+                .products-container {
+                    text-align: center;
+                    .products-row {
+                        .product {
+                            .product-image {
+                                img {
+                                    width: 80px;
+                                    height: 80px;
+                                }
+                                .product-image-principal {
+                                    border: solid #000000;
+                                    img {
+                                        width: 300px;
+                                    }
+                                }
+                                .product-image-thumbnail {
+                                    display: inline-block;
+                                    border: solid #000000;
+                                    border-width: 2px ;
+                                    margin-top: 5px;
+                                    img {
+                                        width: 120px;
+                                    }                    
+                                }                
+                            }
+                        }
+                    }
+                } 
+            }
+        }
+        .footer-container {
+            text-align: end;
+            .social-networks {
+                .twitter img {
+                    width: 30px;
+                }
+                .instagram img {
+                    width: 30px;
+                }
+                .facebook img {
+                    width: 30px;
+                }
+            }
+        }
+    }
+}

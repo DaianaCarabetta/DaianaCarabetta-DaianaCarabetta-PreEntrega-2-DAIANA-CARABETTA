@@ -1,0 +1,24 @@
+.checkout {
+    .products-row {
+        .product {
+            display: block;
+            border: 0;
+            .product-image {
+                display: inline-block;
+            }
+            .product-info-container {
+                display: inline-block;
+                .product-buttons-container {
+                    .product-quantity-picker {
+                        input {
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+            .product-subtotal-price {
+                display: inline-block;
+            }
+        }
+    }
+}

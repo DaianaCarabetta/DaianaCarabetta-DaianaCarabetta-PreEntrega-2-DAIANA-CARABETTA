@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/global.css">
+    <meta name="description" content="Ver Producto - Conseguí los mejores chocolates, bombones y más. Personalizá tus productos y dejate tentar por nuestras originales recetas.">
+    <meta name="keywords" content="Producto, Chocolates, Bombones, Golosinas, Importados, Nacionales, Ofertas, Combos">
+    <title>Tienda online | Willy Wonka | Producto</title>
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/fontawesome.min.css">
     <link rel="stylesheet" href="../css/solid.min.css">
+    <link rel="stylesheet" href="../css/brands.min.css">
     <title>Producto</title>
 </head>
 <body>
     <header>
         <div class="header-container">
-            <div class="search-box-container">
-                <span class="search-box">
-                    <input class="search" type="search">
-                </span>
+            <div class="container search-box-container">
+                <div class="row height d-flex justify-content-end align-items-center">
+                  <div class="col-md-3">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <input type="text" class="form-control">
+                        <button class="btn btn-sm btn-outline-primary">Buscar</button>
+                      </div>
+                  </div>
+                </div>
             </div>
             <div class="title-container">
                 <h1 class="title display-2">willy wonka</h1>
@@ -27,10 +37,16 @@
                     
                 </div>
                 <div class="controls">
-                        <a href="favorites.html" target="_self" class="favorites"></a>
-                        <a href="login_register.html" target="_self" class="register"></a>
-                        <a href="checkout.html" target="_self" class="checkout"></a>
-                </div>
+                    <a href="./favorites.html" target="_self" class="favorites">
+                        <i class="fa-solid fa-heart"></i>
+                    </a>
+                    <a href="./login_register.html" target="_self" class="register">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </a>
+                    <a href="./checkout.html" target="_self" class="checkout">
+                        <i class="fa-solid fa-cart-arrow-down"></i>
+                    </a>
+            </div>
             </div>
         </div>
     </header>
@@ -73,10 +89,9 @@
                 </div>
               </div>
         </div>
-        <div class="body-container">
+        <div class="body-container product">
             <div class="container products-container">
-                <div class="row products-row">
-                    <div class="col-md-4 product"></div>
+                <div class="row products-row justify-content-center">
                     <div class="col-md-4 product">
                         <div class="row products-row">
                             <div class="col-md-12">
@@ -99,8 +114,7 @@
                             </div>
                             <div class="col-md-3"></div>
                         </div> 
-                    </div>   
-                    <div class="col-md-4 product"></div> 
+                    </div>
                 </div>                          
                 <div class="product-name">
                     Haribo x 200 gr
@@ -130,13 +144,13 @@
         <div class="footer-container">
             <div class="social-networks">
                 <span class="twitter">
-                    <img src="../images/twitter.png">
+                    <i class="fa-brands fa-twitter"></i>
                 </span>
                 <span class="instagram">
-                    <img src="../images/instagram.png">
+                    <i class="fa-brands fa-instagram"></i>
                 </span>
                 <span class="facebook">
-                    <img src="../images/facebook.png">
+                    <i class="fa-brands fa-facebook"></i>
                 </span>
             </div>
         </div>
