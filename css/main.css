@@ -13,6 +13,18 @@
 .favorites .products-row .product {
   display: block; }
 
+.product-section {
+  display: flex; }
+  .product-section .menu-container {
+    display: inline-block; }
+
+#carouselExampleControls .carousel-indicators [data-bs-target] {
+  background-color: unset !important; }
+
+#carouselExampleControls .carousel-inner img {
+  width: 100%;
+  height: 100%; }
+
 @font-face {
   font-family: 'RampartOne';
   src: url("../fonts/RampartOne-Regular.ttf"); }

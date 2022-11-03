@@ -50,7 +50,7 @@
             </div>
         </div>
     </header>
-    <section class="section">
+    <section class="section product-section">
         <div class="menu-container">
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -91,33 +91,56 @@
         </div>
         <div class="body-container product">
             <div class="container products-container">
-                <div class="row products-row justify-content-center">
-                    <div class="col-md-4 product">
-                        <div class="row products-row">
-                            <div class="col-md-12">
-                                <div class="product-image-principal">
-                                    <img class="img-fluid" src="../images/haribo.png">
-                                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4">
+                        <div id="carouselExampleControls" class="carousel slide">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="../images/haribo.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../images/haribo.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../images/haribo.png" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="../images/haribo.png" class="d-block w-100" alt="...">
+                              </div>
                             </div>
-                        </div>
-                        <div class="row products-row">
-                            <div class="col-md-3"></div> 
-                            <div class="col-md-3">
-                                <div class="product-image-thumbnail">
-                                    <img class="img-fluid" src="../images/haribo.png">
-                                </div>
-                            </div>                           
-                            <div class="col-md-3">
-                                <div class="product-image-thumbnail">
-                                    <img class="img-fluid" src="../images/haribo.png">
-                                </div>
-                            </div>
-                            <div class="col-md-3"></div>
-                        </div> 
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+
+                            <ol class="carousel-indicators list-inline">
+                                <li class="list-inline-item active">
+                                  <a id="carousel-selector-0" class="selected" data-bs-slide-to="0" data-bs-target="#carouselExampleControls">
+                                    <img src="../images/haribo.png" class="img-fluid">
+                                  </a>
+                                </li>
+                      
+                                <li class="list-inline-item">
+                                  <a id="carousel-selector-1" data-bs-slide-to="1" data-bs-target="#carouselExampleControls">
+                                    <img src="../images/haribo.png" class="img-fluid">
+                                  </a>
+                                </li>
+                      
+                                <li class="list-inline-item">
+                                  <a id="carousel-selector-2" data-bs-slide-to="3" data-bs-target="#carouselExampleControls">
+                                    <img src="../images/haribo.png"  class="img-fluid">
+                                  </a>
+                                </li>
+                               </ol>
+                          </div>
                     </div>
-                </div>                          
+                  </div>                        
                 <div class="product-name">
-                    Haribo x 200 gr
+                    <h2><strong>Haribo x 200 gr</strong></h2>
                 </div>
                 <div class="text-product">
                     <p>Gomitas Haribo Worms Sabor a Frutas 200 gr. Orgigen: Austria</p>
