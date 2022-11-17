@@ -3,6 +3,17 @@
     .menu-container {
         display: inline-block;
     }
+    .product {
+      .products-container {
+        .add-product-container {
+          .product-quantity-picker {
+            input {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
 }
 
 #carouselExampleControls {
@@ -10,6 +21,7 @@
     [data-bs-target] {
       background-color: unset !important;
     }
+    position: relative;
   }
 
   .carousel-inner {
